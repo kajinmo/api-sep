@@ -33,7 +33,7 @@ produtos: List[Dict[str, any]] = [
 # definir a rota
 @app.get("/") # recebe requisições GET
 def ola_mundo(): #response
-        return {'Olá': 'Mundo'}
+        return {'Olá': 'Muundo'}
 
 # definir a rota que puxa produto
 @app.get("/produtos")
