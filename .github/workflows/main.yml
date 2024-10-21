@@ -21,5 +21,5 @@ jobs:
       - name: List directory contents
         run: ls -la
 
-      - name: Run tests
-        run: pytest -v tests.py
+      - name: Run test
+        run: pytest -v test.py
